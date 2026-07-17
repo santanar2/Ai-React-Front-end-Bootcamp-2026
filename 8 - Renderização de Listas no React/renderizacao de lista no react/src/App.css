@@ -1,0 +1,29 @@
+#root {
+    min-height: 100vh;
+}
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+.list-text {
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 1.2rem;
+    width: 100%;
+    max-width: 480px;
+}
+
+.list-text li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
