@@ -3,14 +3,16 @@
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    
 }
 
 .image {
     width: 300px;
     align-items: center;
     margin: 0 auto;
+    border-radius: 5%;
 
-   
+
     
 }
 
