@@ -27,3 +27,21 @@
     margin-bottom: 0.5rem;
     line-height: 1.5;
 }
+
+.top-sale-item {
+    padding: 24px;
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.top-sale-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-sale-item li {
+    margin-bottom: 0;
+}
