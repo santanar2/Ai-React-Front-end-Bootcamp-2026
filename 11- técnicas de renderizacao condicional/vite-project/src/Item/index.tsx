@@ -1,0 +1,22 @@
+interface Props {
+    name: string;
+    check?: boolean;
+
+}
+
+const Item: React.FC<Props> =({ name, check }) => {
+
+    if ( check) {
+        return (
+            <div className="item"><span><img className="visto" src="./src/assets/check.png" alt="Check" /> </span><del>{name}</del></div>
+        )
+    }
+    return (
+        
+            <div className="item"><span><img className="nao-visto" src="./src/assets/nao-visto.jpg" alt="Check" /> </span> {name}</div>
+        
+    )
+}
+
+
+export default Item;
