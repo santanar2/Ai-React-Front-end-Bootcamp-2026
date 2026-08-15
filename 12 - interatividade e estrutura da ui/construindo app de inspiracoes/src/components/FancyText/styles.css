@@ -1,0 +1,14 @@
+.title {
+    color: #007aa3;
+    text-decoration: underline;
+
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
