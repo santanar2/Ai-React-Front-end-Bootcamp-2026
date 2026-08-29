@@ -2,7 +2,7 @@ export function SimulationForm() {
     return (
         <main className="mx-auto flex min-h-screen max-w-3xl flex-col justify-center px-6 py-12">
             <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-primary">
-                Educador financeiro
+                Educador financeiro 
             </p>
             <h1 className="mb-8 text-4xl font-bold">Formulário de Simulação</h1>
             <form className="grid gap-5 rounded-lg border border-border bg-card p-6 shadow-sm">
